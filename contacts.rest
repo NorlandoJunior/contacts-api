@@ -1,10 +1,10 @@
 ### GET all contacts
-GET http://localhost:3000/contacts
+GET https://contacts-api-jnau.onrender.com/contacts
 
 ### GET contact by ID
-GET http://localhost:3000/contacts/1
+GET https://contacts-api-jnau.onrender.com/contacts/68685524fba07ccc17d3465a
 ### POST create new contact
-POST http://localhost:3000/contacts
+POST https://contacts-api-jnau.onrender.com/contacts
 Content-Type: application/json
 
 {"_id":{"$oid":"68685524fba07ccc17d3465a"},
@@ -15,7 +15,7 @@ Content-Type: application/json
 "birthday":"2001-06-19"}
 
 ### PUT update contact
-PUT http://localhost:3000/contacts/1
+PUT https://contacts-api-jnau.onrender.com/contacts/68685524fba07ccc17d3465a
 Content-Type: application/json
 
 {"_id":{"$oid":"68685524fba07ccc17d3465a"},
@@ -26,4 +26,4 @@ Content-Type: application/json
 "birthday":"2001-06-19"}
 
 ### DELETE contact
-DELETE http://localhost:3000/contacts/ID_AQUI
+DELETE https://contacts-api-jnau.onrender.com/contacts/68704661038e53f4874c45b3
