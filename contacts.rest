@@ -1,0 +1,29 @@
+### GET all contacts
+GET http://localhost:3000/contacts
+
+### GET contact by ID
+GET http://localhost:3000/contacts/1
+### POST create new contact
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{"_id":{"$oid":"68685524fba07ccc17d3465a"},
+"firstName":"Norlando",
+"lastName":"Junior",
+"email":"norlandojr@hotmail.com",
+"favoriteColor":"Blue",
+"birthday":"2001-06-19"}
+
+### PUT update contact
+PUT http://localhost:3000/contacts/1
+Content-Type: application/json
+
+{"_id":{"$oid":"68685524fba07ccc17d3465a"},
+"firstName":"Norlando",
+"lastName":"Junior",
+"email":"norlandojr@hotmail.com",
+"favoriteColor":"Black",
+"birthday":"2001-06-19"}
+
+### DELETE contact
+DELETE http://localhost:3000/contacts/ID_AQUI
